@@ -5,21 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin-Recipes</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
 
-    <h2>Ecuadorian Traditional Recipes</h2>
+    <header>
+        <h1>Odin Recipes</h1>
 
-    <img src="https://www.laylita.com/recipes/wp-content/uploads/2012/10/Easy-Ecuadorian-recipes.jpg" alt="Ecuadorian food images">
+        <h2>Ecuadorian Traditional Recipes</h2>
 
-    <ul>
-        <li><a href="./recipes/ceviche.html">Shrimp ceviche | Ceviche de camarón</a></li>
-        <li><a href="./recipes/locro.html">Potato and cheese soup | Locro de papa</a></li>
-        <li><a href="./recipes/mote.html">Hominy with eggs | Mote Pillo</a></li>
-    </ul>
+    </header>
 
-    <p>All information, images and recipes are from <a href="https://www.laylita.com/">Laylita.com</a> and used for educational purposes only. Please visit <a href="https://www.laylita.com/">Laylita.com</a> for more complete recipes.</p>
+    <section>   
+        
+        <div class="images">
+            <img src="https://www.laylita.com/recipes/wp-content/uploads/2012/10/Easy-Ecuadorian-recipes.jpg" alt="Ecuadorian food images">
+        </div>
+
+        <h2>Welcome</h2>
+
+        <div>
+            <p>Here you will find my most popular traditional Ecuadorian recipes, including recipes from the different regions of Ecuador and holiday recipes. These classic Ecuadorian recipes are easy to make and most include step by step photos. This list breaks out the recipes by category to make it easier to find the recipe you need.</p>
+        </div>
+
+        <ul id="recipesIndex">
+            <li>
+                <a href="./recipes/ceviche.html">
+                    <div class="ceviche"></div>
+                    <div class="overlay"></div>
+                    Shrimp ceviche <br>
+                    <span class="esp">Ceviche de camarón</span>
+                </a>
+            </li>
+            <li>
+                <a href="./recipes/locro.html">
+                    <div class="locro"></div>
+                    <div class="overlay"></div>
+                    Potato and cheese soup <br>
+                    <span class="esp">Locro de papa</span>
+                </a>
+            </li>
+            <li>
+                <a href="./recipes/mote.html">
+                    <div class="mote"></div>
+                    <div class="overlay"></div>
+                    Hominy with eggs <br>
+                    <span class="esp">Mote Pillo</span>
+                </a>
+            </li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <p>All information, images and recipes are from <a href="https://www.laylita.com/">Laylita.com</a> and used for educational purposes only. Please visit <a href="https://www.laylita.com/">Laylita.com</a> for more complete recipes.</p>
+    </footer>
 
 </body>
 </html>

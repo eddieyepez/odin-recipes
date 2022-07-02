@@ -1,0 +1,149 @@
+:root{
+    --bg: #f9f3f0;
+    --primary: #ffc8c8;
+    --secondary: #a32929;
+    --dark: #4a5759;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 25px;
+}
+
+a{
+ text-decoration: none;   
+ color: var(--secondary);
+}
+
+a:hover{
+    color: var(--dark);
+}
+
+li a{
+    position: relative;
+}
+
+a div{
+    width: 250px;
+    height: 130px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.ceviche{
+    background-image: url("https://www.laylita.com/recipes/wp-content/uploads/2006/07/1-Shrimp-ceviche-recipe.jpg");    
+    
+}
+
+
+.mote{
+    background-image: url("https://www.laylita.com/recipes/wp-content/uploads/2008/03/Mote-pillo-recipe.jpg");
+}
+
+.locro{
+    background-image: url("https://www.laylita.com/recipes/wp-content/uploads/2008/01/Ecuadorian-locro-de-papa-or-potato-soup-recipe.jpg");
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -125px;
+    right: 0;
+    height: 130px;
+    width: 250px;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: var(--dark);
+}
+
+li a:hover .overlay {
+    opacity: 0.5;
+  }
+
+a div.locro{
+    margin: 0 20px 10px 20px;
+}
+
+body{
+    min-height: 100wh;
+    background-color: var(--bg);
+
+}
+
+header, section{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3{
+    text-align: center;
+    margin: 20px 0 5px 0;
+    color: var(--secondary);
+}
+
+h2, h3{
+    margin: 25px;
+}
+
+nav{
+    padding: 5px;
+    max-width: 800px;
+    text-align: right;
+    background-color: var(--primary);
+    margin: 10px 0;
+}
+
+
+section p {
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.images{  
+    text-align: center;    
+    padding: 20px;
+    background-color: var(--secondary);
+}
+
+.images img{
+    width: 100%;
+    height: auto;
+}
+
+#recipesIndex{
+    text-align: center;
+    margin: 40px 0;
+}
+
+#recipesIndex li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+#recipesIndex li br{
+    margin: 5px 0;
+}
+
+.esp{
+    font-size: 14px;
+}
+
+body section.other{
+    background-color: white;
+    max-width: 100%;
+    padding: 10px 0 10px 0;
+    margin-top: 40px;
+}
+
+footer{
+    padding: 20px;
+    background-color: var(--primary);
+    font-size: 12px;
+    text-align: center;
+}
